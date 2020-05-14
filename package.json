@@ -1,0 +1,15 @@
+{
+  "name": "platziversedb",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "lint": "standard"
+  },
+  "keywords": [],
+  "author": "Yeison Tapia <yftapial@ut.edu.co>",
+  "license": "MIT",
+  "description": "A Simple IoT Platform - DB Module",
+  "devDependencies": {
+    "standard": "^14.3.4"
+  }
+}
