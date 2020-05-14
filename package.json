@@ -3,6 +3,7 @@
   "version": "1.0.0",
   "main": "index.js",
   "scripts": {
+    "setup": "node setup.js",
     "lint": "standard"
   },
   "keywords": [],
@@ -11,5 +12,13 @@
   "description": "A Simple IoT Platform - DB Module",
   "devDependencies": {
     "standard": "^14.3.4"
+  },
+  "dependencies": {
+    "chalk": "^4.0.0",
+    "debug": "^4.1.1",
+    "inquirer": "^7.1.0",
+    "mysql": "^2.18.1",
+    "mysql2": "^2.1.0",
+    "sequelize": "^5.21.8"
   }
 }
