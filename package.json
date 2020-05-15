@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "main": "index.js",
   "scripts": {
-    "test": "ava tests/* --verbose",
+    "test": "nyc --reporter=lcov ava tests/* --verbose",
     "setup": "node setup.js",
     "lint": "standard"
   },
@@ -13,6 +13,7 @@
   "description": "A Simple IoT Platform - DB Module",
   "devDependencies": {
     "ava": "^3.8.2",
+    "nyc": "^15.0.1",
     "sqlite3": "^4.2.0",
     "standard": "^14.3.4"
   },
