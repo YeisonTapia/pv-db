@@ -1,4 +1,4 @@
-# platziverse-db
+# pv-db
 
 ## Usage
 
